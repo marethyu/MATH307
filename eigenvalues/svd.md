@@ -46,8 +46,7 @@ $$
 Compute
 
 $$
-A^TA \boldsymbol{q} = \frac{1}{\sqrt{\lambda}} A^T A A^T \boldsymbol{p} = \frac{1}{\sqrt{\lambda}} A^T A A^T \boldsymbol{p}
-= \sqrt{\lambda} A^T \boldsymbol{p} = \lambda \boldsymbol{q}
+A^TA \boldsymbol{q} = \frac{1}{\sqrt{\lambda}} A^T A A^T \boldsymbol{p} = \sqrt{\lambda} A^T \boldsymbol{p} = \lambda \boldsymbol{q}
 $$
 
 Therefore $\boldsymbol{q}$ is an eigenvector for $A^TA$ with eigenvalue $\lambda$. Now let's verify it is a unit vector. Compute
@@ -116,7 +115,7 @@ A^TA \boldsymbol{q}_i = \sigma_i^2 \boldsymbol{q}_i \ \ , \ \ i =1,\dots,r
 A^TA \boldsymbol{q}_i = \boldsymbol{0} \ \ , \ \ i =r+1,\dots,n
 $$
 
-Note that $\boldsymbol{q}_{r+1},\dots,\boldsymbol{q}_r \in N(A)$. Let $Q$ be the orthogonal matrix
+Note that $\boldsymbol{q}_{r+1},\dots,\boldsymbol{q}_n \in N(A)$. Let $Q$ be the orthogonal matrix
 
 $$
 Q = \begin{bmatrix} & & \\ \boldsymbol{q}_1 & \cdots & \boldsymbol{q}_n \\ & & \end{bmatrix}
